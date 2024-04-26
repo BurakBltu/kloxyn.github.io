@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Eofis_logo {
+    padding: 10px;
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    user-select: none;
+}
+
+.btn_eofis button a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.btn_p1 {
+    border-radius: 20px;
+    background-color: rgb(255, 117, 117);
+    font-size: 30px;
+    margin: 70px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.btn_e {
+    border-radius: 20px;
+    background-color: blue;
+    font-size: 30px;
+    margin-left: -35px;
+    width: 200px;
+    height: 200px;
+}
+
+.btn_p {
+    border-radius: 20px;
+    background-color: green;
+    font-size: 30px;
+    margin: 60px;
+    margin-left: 35px;
+    width: 200px;
+    height: 200px;
+}
+
+.btn_k {
+    border-radius: 20px;
+    background-color: darkred;
+    font-size: 30px;
+    margin: 5px;
+    margin-left: -20px;
+    width: 200px;
+    height: 200px;
+}
+
+.btn_m {
+    border-radius: 20px;
+    background-color: #00FFFF;
+    font-size: 30px;
+    margin: 60px;
+    margin-left: 40px;
+    width: 200px;
+    height: 200px;
+}
+
+.btn_s {
+    border-radius: 20px;
+    background-color: #00FFFF;
+    font-size: 30px;
+    margin-left: 70px;
+    width: 200px;
+    height: 200px;
+    display: block;
+    width: 10.5%;
+    margin-bottom: 10px;
+}
+
+.btn_f {
+    border-radius: 20px;
+    background-color: #00FFFF;
+    font-size: 30px;
+    margin-left: 310px;
+    height: 200px;
+    display: block;
+    width: 10.5%;
+    margin-top: -210px;
+}
+
+.list-container {
+    width: 200px;/* Liste kutusunun genişliği */
+    border: 1px solid #ccc;/* Kenarlık rengi ve kalınlığı */
+    border-radius: 5px;/* Kenar yuvarlaklığı */
+    padding: 0;/* İçeriğin kenarlardan uzaklığı */
+    margin: 0;/* Kenar boşluğu */
+    margin: 100px;
+}
+
+#myList {
+    list-style-type: none;/* Liste işaretçilerini kaldırır */
+    padding: 0;/* İçeriğin kenarlardan uzaklığı */
+    margin: 0;/* Kenar boşluğu */
+}
+
+#myList li {
+    background-color: #f4f4f4;/* Madde arkaplan rengi */
+    color: #333;/* Madde metin rengi */
+    padding: 10px;/* İçeriğin kenarlardan uzaklığı */
+    font-size: 16px;/* Metin boyutu */
+}
+
+#myList li:last-child {
+    border-bottom: none;/* Son maddede alt kenarlık kaldır */
+}
+
+#myList li:hover {
+    background-color: gray;/* Fare üzerine gelindiğinde madde arkaplan rengi */
+    color: white;
+    cursor: pointer;/* Fare işaretçisi */
+}
+
+ul li a:hover {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+#i1 i {
+    margin-right: 60px;
+}
+
+.messagebox {
+    background-color: gray;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 78%;
+    width: 300px;
+    height: 750px;
+    margin-top: -470px;
+    text-align: center;
+}
+
+.messagebox p {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.messagebox h1 {
+    font-size: 15px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    margin-left: 1000px;
+}
+
+.p1, .p2, .p3{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.p4, .p5{
+    margin-left: 34.3%;
+    font-size:17px;
+}
+
+.p6, .p7{
+    margin-top: -15px;
+    margin-left: 48.7%;
+}
+
+.p8, .p9{
+    margin-top:-15px;
+    margin-left: 62.5%;
+}
+
+#i1{
+    margin-top: 40px;
+    margin-left: 35%;
+}
+
+#i2{
+    color: rgb(61, 255, 61);
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+#i3{
+    margin-left: 11%;
+    color: lightseagreen;
+}
+
+#i4{
+margin-left: -40%;
+}
+
+.card-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 750px;
+    overflow-y: scroll;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    width: 25%;
+    height: 30%;
+    margin-top: 50px;
+    margin-left: 49.5%;
+    text-align: center;
+  }
+  
+  .card-body h5 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .card-body p {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+
+  .card-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 750px;
+    overflow-y: scroll;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+   .card-body1{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    width: 450px;
+    height: 155px;
+    margin-top: -195px;
+    margin-left: 23%;
+    text-align: center;
+  }
+  
+  .card-body1 h5 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .card-body1 p {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+
+  .hr {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    height: 1px;
+    margin: 20px auto;
+  }
+
+  .h1{
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .h2{
+    margin-left: 250px;
+    margin-top: 25px;
+  }
+  .li1, .li2, .li3, .li4, .li5, .li6, .li7, .li8, .li9, .li10,.li11,.li12,.li13
+  ,.li14, .li15,.li16,.li17,.li18,.li19,.li20,.li21,.li22,.li23,.li24,.li25,.li26,
+  .li27,.li28{
+    margin-top: 20px;
+    margin-left: 300px;
+  }
+
+  .list-unstyled{
+    margin-top: -57.5%;
+    margin-left: 40%;
+  }
+
+  .list-unstyled ul li{
+    margin-top: 20px;
+  }
+
+  .şehir{
+    margin-top: -84%;
+    margin-left: 550px;
+  }
+  
+  .container{
+    margin-bottom: -70%;
+  }
+
+a{
+  text-decoration: none;
+}

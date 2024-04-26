@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+.card{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-image{
+    width: 100%;
+    height:auto;
+}
+
+.card-content{
+    padding: 15px;
+    background: rgb(80, 80, 80);
+}
+
+.card-title{
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.card-text{
+    margin: 10px 0;
+    font-size:16px;
+    line-height: 1.5;
+    color: white;
+}
+
+.card-content:hover{
+    background: rgb(100, 100, 100);
+    box-shadow: 2px 2px 8px 4px inset rgb(192,192,192);
+}
+
+.btn-teklif{
+    background: red ;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-teklif a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-teklif:hover{
+    box-shadow: 0 1px 4px 1px gray;
+    color: darkgray;
+}

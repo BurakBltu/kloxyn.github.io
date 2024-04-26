@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #666;
+	color: white;
+}
+
+.blockOverlay{
+    background-color:rgb(60, 60, 60) !important;
+}
+.blockMsg {
+    border: 0px !important;
+}
+#ana {
+	width: 100%;	
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
+	top: 50%;
+	/*margin-top: -200px;*/ /* yüksekliğin yarısı */
+	text-align: center;
+	background-color: #2C4271;
+}
+
+#icorta {
+	height: 400px;
+	width: 400px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#image	{
+	margin-top:-10%;
+	margin-left: 20%;
+}
